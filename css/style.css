@@ -1,0 +1,82 @@
+body {
+    background-color: #f8f8f8;
+    font-family: sans-serif, arial, verdana, roboto;
+    width: 1200px;
+    position: static;
+    margin: 20px auto;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+
+    font-variant: small-caps;
+    font-size: 17px;
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h3, h4, h5 {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-align: justify;
+}
+
+.characteristics {
+    font-family: monospace;
+    color: darkslategray;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 22px;
+    list-style-image: url(../img/marker-gear.png);
+}
+
+.username {
+    height: 20px;
+    width: 271px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.email {
+    height: 20px;
+    width: 305px;
+    font-size: 16px;
+    color: blue;
+}
+
+.theme {
+    height: 20px;
+    width: 307px;
+    font-size: 16px;
+    color: crimson;
+}
+
+textarea {
+    height: 200px;
+    width: 347px;
+    font-size: 17px;
+}
+
+.send {
+    height: 26px;
+    width: 352px;
+    margin-top: 10px;
+}
+
+.cover {
+    border: 2px solid black;
+}
