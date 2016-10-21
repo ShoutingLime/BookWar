@@ -1,17 +1,41 @@
 body {
-    background-color: #f8f8f8;
+    height: 100%;
     font-family: sans-serif, arial, verdana;
+}
+
+.container {
     width: 1200px;
-    position: static;
-    margin: 20px auto;
+    margin: 0 auto;
+    min-height: 100%;
+    background-color: #f8f8f8;
+}
+
+.header {
+    height: 185px;
+    background: url(../img/header-background.jpg) repeat-x
+}
+
+.header .logo {
+    margin-left: 30px;
+    margin-top: 40px;
+    float: left;
 }
 
 .menu {
     padding-left: 0px;
+    font-size: 0px;
+    text-align: right;
 }
+
 
 .menu li {
     list-style-type: none;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 130px;
+    display: inline-block;
 }
 
 .menu li a {
@@ -25,6 +49,18 @@ body {
 
 .menu li a:hover {
     color: black;
+}
+
+.footer {
+    height: 30px;
+    background: url(../img/footer-background.jpg) repeat-x;
+    clear: both;
+}
+
+.copyright {
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
 }
 
 .bookname {
@@ -172,8 +208,41 @@ textarea {
 
 .cover {
     border: 2px solid black;
+    float: left;
+    margin-right: 20px;
 }
 
 .cover:hover {
-    border-color: #f8f8f8;
+    border-color: transparent;
+}
+
+.buy {
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.buy:hover {
+    color: red;
+    border-color: red;
+}
+
+.buy:active {
+    color: darkgreen;
+    border-color: darkgreen;
+}
+
+.book_preview {
+    background-color: cornsilk;
+    width: 230px;
+    height: 335px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 5px ridge lightslategray;
+    text-align: center;
 }
